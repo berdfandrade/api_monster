@@ -3,6 +3,7 @@ import gerarMonstro from "./monstro.js";
 import cors from 'cors';
 const app = express();
 
+// Iniciando o CORS() 
 app.use(cors());
 
 app.get("/", (req, res) => {
